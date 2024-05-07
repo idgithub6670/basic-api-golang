@@ -28,7 +28,7 @@ type Course struct {
 
 func SetupDB() {
 	var err error
-	Db, err = sql.Open("mysql", "root:210658Za!@tcp(127.0.0.1:3306)/coursedb")
+	Db, err = sql.Open("mysql", "root:xxxxxxxxxx@tcp(127.0.0.1:3306)/coursedb")
 	if err != nil {
 		log.Fatal(err)
 	}
